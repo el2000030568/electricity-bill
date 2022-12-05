@@ -1,0 +1,23 @@
+cloud:
+  aws:
+    region:
+      static: us-east-1
+      auto: false
+    stack:
+      auto: false
+    credentials:
+      access-key: AKIA5SJHSVENVF7ABGUU
+      secret-key: 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
+      
+#spring:
+  #datasource:
+      # url: jdbc:sqlserver://ebssystem.database.windows.net:1433;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+      # username: ebs
+       #password: Loki@2003
+  #jpa:
+   # show-sql: true
+  #  hibernate: 
+    #  ddl-auto: update
+     # dialect : org.hibernate.dialect.SQLServer2012Dialect
+      
+      
