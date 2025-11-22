@@ -8,7 +8,15 @@
   <img src="https://img.shields.io/badge/Azure-Deployment-blue?style=for-the-badge" />
 </p>
 
-### 🔰 Tech Badges
+---
+
+## 🚀 Overview  
+Electricity Billing System is a **Java Spring Boot** application designed to calculate monthly electricity bills (similar to ComEd).  
+It includes **OTP verification**, **SMTP billing emails**, **Admin dashboard**, **AWS RDS database**, and **Azure deployment**.
+
+---
+
+## 🏷️ Tech Badges
 ![Java](https://img.shields.io/badge/Java-17-red)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Backend-green)
 ![AWS RDS](https://img.shields.io/badge/AWS-RDS-orange)
@@ -17,3 +25,40 @@
 ![OTP](https://img.shields.io/badge/Phone%20OTP-AWS%20SNS-lightgrey)
 ![SMTP](https://img.shields.io/badge/SMTP-Email-orange)
 ![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen)
+
+---
+
+## 🔹 Features (User)
+- Calculate monthly electricity bill  
+- OTP-based phone verification (AWS SNS)  
+- Email notifications using SMTP (JavaMail)  
+- View past bills  
+- Secure login  
+
+---
+
+## 🔹 Features (Admin)
+- Full **Admin Dashboard**  
+- Add/update/delete customers  
+- Update **unit pricing table**  
+- View system logs  
+- Manage billing history  
+- Monitor AWS RDS database  
+- Role-based access  
+
+---
+
+## 🧩 System Architecture
+1. user logs in → receives OTP via AWS SNS  
+2. backend verifies OTP & creates session  
+3. user submits units consumed  
+4. backend fetches price/unit from DB  
+5. system calculates the total bill  
+6. email notification sent via SMTP  
+7. admin panel for system management  
+8. hosted on Azure  
+
+---
+
+## 🧮 Billing Formula
+
