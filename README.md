@@ -34,7 +34,7 @@ This section illustrates the step-by-step user journey, from login to viewing an
 ### 1. User Login 🔑
 The user can log in using their service number or phone number and a password. Forgot password functionality is also available, likely triggering an OTP reset.
 <p align="center">
-<img src="./src/main/webapp/images/Screenshot (240).jpg" alt="Login screen for the Electricity Bill System with fields for Scno/phone and password." width="500"/>
+<img src="./src/main/webapp/images/Screenshot-239.png" alt="Login screen for the Electricity Bill System with fields for Scno/phone and password." width="500"/>
 </p>
 
 This screen also links to the password recovery page, which initiates **OTP verification**.
