@@ -76,6 +76,12 @@ It includes **OTP verification**, **SMTP billing emails**, **Admin dashboard**, 
 ![Pricing Table](screenshots/pricing-table.png)
 
 ---
-
 ## 🧮 Billing Formula
+Total Bill = Units Consumed × Price Per Unit
+
+## ⚙️ Installation
+```bash
+git clone https://github.com/el2000030568/electricity-bill
+cd electricity-bill
+mvn spring-boot:run
 
