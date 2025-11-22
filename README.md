@@ -7,7 +7,6 @@
   <img src="https://img.shields.io/badge/AWS-RDS-orange?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Azure-Deployment-blue?style=for-the-badge" />
 </p>
-
 ### 🔰 Tech Badges
 ![Java](https://img.shields.io/badge/Java-17-red)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Backend-green)
