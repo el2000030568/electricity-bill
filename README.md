@@ -61,4 +61,32 @@ It includes **OTP verification**, **SMTP billing emails**, **Admin dashboard**, 
 ---
 
 ## 🧮 Billing Formula
+Total Bill = Units Consumed × Price Per Unit
+
+
+---
+
+## 📂 Project Structure
+electricity-bill/
+├── src/
+│ └── main/
+│ ├── java/com/<your-name>/electricity/
+│ │ ├── controller/
+│ │ ├── service/
+│ │ ├── repository/
+│ │ └── model/
+│ └── resources/
+│ ├── application.properties
+│ └── templates/
+├── pom.xml
+└── README.md
+
+
+---
+
+## ⚙️ Installation
+```bash
+git clone https://github.com/el2000030568/electricity-bill
+cd electricity-bill
+mvn spring-boot:run
 
