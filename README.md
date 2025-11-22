@@ -34,38 +34,38 @@ This section illustrates the step-by-step user journey, from login to viewing an
 ### 1. User Login 🔑
 The user can log in using their service number or phone number and a password. Forgot password functionality is also available, likely triggering an OTP reset.
 <p align="center">
-<img src="./Screenshot (240).jpg" alt="Login screen for the Electricity Bill System with fields for Scno/phone and password." width="500"/>
+<img src="./src/main/webapp/images/Screenshot (240).jpg" alt="Login screen for the Electricity Bill System with fields for Scno/phone and password." width="500"/>
 </p>
 
 This screen also links to the password recovery page, which initiates **OTP verification**.
 <p align="center">
-<img src="./Screenshot (241).jpg" alt="Password recovery screen requiring phone number to get OTP." width="500"/>
+<img src="./src/main/webapp/images/Screenshot (241).jpg" alt="Password recovery screen requiring phone number to get OTP." width="500"/>
 </p>
 
 ### 2. User Dashboard 🏠
 Upon successful login, the user is presented with their dashboard, showing their **Total Dues** and essential account information. Navigation links allow for changing the password, viewing history, and updating contact details.
 <p align="center">
-<img src="./Screenshot (246).jpg" alt="User dashboard showing a welcome message, Total Dues, and a table of previous bill records." width="700"/>
+<img src="./src/main/webapp/images/Screenshot (246).jpg" alt="User dashboard showing a welcome message, Total Dues, and a table of previous bill records." width="700"/>
 </p>
 
 ### 3. Viewing and Paying the Bill 💸
 Users can view a detailed breakdown of their bill, including the service number, units consumed, cost, bill date, and due date. A **Pay** button facilitates the payment process.
 <p align="center">
-<img src="./Screenshot (247).jpg" alt="Pop-up view of the electricity bill showing service number, customer name, bill date, units consumed (40), and cost (120)." width="700"/>
+<img src="./src/main/webapp/images/Screenshot (247).jpg" alt="Pop-up view of the electricity bill showing service number, customer name, bill date, units consumed (40), and cost (120)." width="700"/>
 </p>
 A separate view provides the full summary before payment.
 <p align="center">
-<img src="./Screenshot (248).jpg" alt="Full bill view screen showing customer name, service number, billed units, dates, and payment ID." width="700"/>
+<img src="./src/main/webapp/images/Screenshot (248).jpg" alt="Full bill view screen showing customer name, service number, billed units, dates, and payment ID." width="700"/>
 </p>
 
 ### 4. Updating Account Details ✏️
 Users have the option to update their phone number or add/update their email address, often requiring the Service Number (**Scno**) for verification.
 <p align="center">
-<img src="./Screenshot (242).jpg" alt="Screen with instructions for changing/linking mobile number requiring the service number (Scno)." width="700"/>
+<img src="./src/main/webapp/images/Screenshot (242).jpg" alt="Screen with instructions for changing/linking mobile number requiring the service number (Scno)." width="700"/>
 </p>
 The system also allows for email updates using an OTP sent to the new address.
 <p align="center">
-<img src="./Screenshot (243).jpg" alt="Email processing system screen requiring Scno to update the email address using an OTP." width="700"/>
+<img src="./src/main/webapp/images/Screenshot (243).jpg" alt="Email processing system screen requiring Scno to update the email address using an OTP." width="700"/>
 </p>
 
 ---
@@ -76,13 +76,13 @@ The system includes separate portals for administrative and employee functions, 
 ### 1. Admin Panel ⚙️
 The **Admin** panel is secured with a dedicated login, allowing management to oversee the entire system, update unit pricing, and manage billing history.
 <p align="center">
-<img src="./Screenshot (245).jpg" alt="Admin Login page with fields for admin name and admin password." width="500"/>
+<img src="./src/main/webapp/images/Screenshot (245).jpg" alt="Admin Login page with fields for admin name and admin password." width="500"/>
 </p>
 
 ### 2. Employee Access 👷
 Employees can log in with their EMPID to start entering bill statuses, which is essential for the timely processing of bills.
 <p align="center">
-<img src="./Screenshot (244).jpg" alt="Employee Login page with fields for EMPID and password." width="500"/>
+<img src="./src/main/webapp/images/Screenshot (244).jpg" alt="Employee Login page with fields for EMPID and password." width="500"/>
 </p>
 
 ---
