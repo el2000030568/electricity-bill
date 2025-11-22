@@ -82,7 +82,7 @@ The **Admin** panel is secured with a dedicated login, allowing management to ov
 ### 2. Employee Access 👷
 Employees can log in with their EMPID to start entering bill statuses, which is essential for the timely processing of bills.
 <p align="center">
-<img src="./src/main/webapp/images/Screenshot(244).png" alt="Employee Login page with fields for EMPID and password." width="500"/>
+<img src="./src/main/webapp/images/Screenshot (244).png" alt="Employee Login page with fields for EMPID and password." width="500"/>
 </p>
 
 ---
