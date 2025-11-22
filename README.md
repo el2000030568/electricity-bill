@@ -68,7 +68,9 @@ Total Bill = Units Consumed × Price Per Unit
 
 ## 📂 Project Structure
 electricity-bill/
+
 ├── src/
+
 │ └── main/
 │ ├── java/com/<your-name>/electricity/
 │ │ ├── controller/
